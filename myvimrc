@@ -1,0 +1,6 @@
+" Vim Options
+syntax on 
+
+" Key mapping
+nmap <F5> i<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F5> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
